@@ -4,8 +4,12 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+    problema1.cpp \
     problema11.cpp \
     problema13.cpp \
+    problema15.cpp \
     problema3.cpp \
+    problema5.cpp \
     problema7.cpp \
+    problema9.cpp \
     prueba.cpp
