@@ -1,65 +1,24 @@
 /*
-#include <iostream>}
-#include <math.h>
+
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
 
 using namespace std;
-int convertir(char [],int);
-int suma=0;
+int arregloAleatorio[200];
+const char* Letras[] {"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K" ,"L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
 
-int main()
-{
-    char cadena[20];int tamano;int num;
-    cout << "ingrese el tamaño de la cadena de caracteres" << endl;
-    cin>>tamano;
-    cout << "ingrese cadena de caracteres" << endl;
-    cin>>cadena;
-    num=convertir(cadena,tamano);
-    cout<<"la cadena ahora es de tipo int con valor "<<suma<<endl;
-
-
-    return 0;
-}
-
-int convertir(char cadena[],int tamano){
-    int multi=1;
-    for(int i=0;i<tamano;i++){
-        for(int j=tamano-1-i;j>0;j--){
-            multi=multi*10;
+for(int i=0;i<200;i++){
+    arregloAleatorio[i] = 1 + rand() % (6 - 1);
+    for(int j=0;j<(i+1);j++){
+        while(arreglo_aleatorio[i]==arreglo_aleatorio[j] && i!=j){
+            arreglo_aleatorio[i] = 1 + rand() % (6 - 1);
         }
-        if(cadena[i]==48){
-            suma=suma+0;
-        }
-        else if(cadena[i]==49){
-            suma=suma+(1*multi);
-        }
-        else if(cadena[i]==50){
-            suma=suma+(2*multi);
-        }
-        else if(cadena[i]==51){
-            suma=suma+(3*multi);
-        }
-        else if(cadena[i]==52){
-            suma=suma+(4*multi);
-        }
-        else if(cadena[i]==53){
-            suma=suma+(5*multi);
-        }
-        else if(cadena[i]==54){
-            suma=suma+(6*multi);
-        }
-        else if(cadena[i]==55){
-            suma=suma+(7*multi);
-        }
-        else if(cadena[i]==56){
-            suma=suma+(8*multi);
-        }
-        else if(cadena[i]==57){
-            suma=suma+(9*multi);
-        }
-        cout<<cadena[i]<<"  "<<multi<<endl;
-        multi=1;
     }
-    return suma;
-
 }
+
+for(int i=0;i<200;i++){//Imprimir el arreglo para comprobar si funciona
+    cout<<arreglo_aleatorio[i]<<endl;
+}
+
 */

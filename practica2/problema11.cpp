@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 
 using namespace std;
@@ -21,15 +21,15 @@ int calcula(int *array){
     for (int j=1;j<5;j++){
         for(int i=1;i<7;i++){
             suma=suma + *(array+8*j+i);
-            cout<<*(array+8*j+i)<<endl;
+            //cout<<*(array+8*j+i)<<endl;
             suma=suma + *(array+8*(j-1)+i);
-            cout<<*(array+8*(j-1)+i)<<endl;
+            //cout<<*(array+8*(j-1)+i)<<endl;
             suma=suma + *(array+(8*j)+i-1);
-            cout<<*(array+(8*j)+i-1)<<endl;
+            //cout<<*(array+(8*j)+i-1)<<endl;
             suma=suma + *(array+8*j+(i+1));
-            cout<<*(array+8*j+(i+1))<<endl;
+            //cout<<*(array+8*j+(i+1))<<endl;
             suma=suma + *(array+(8*(j+1))+i);
-            cout<<*(array+(8*(j+1))+i)<<endl;
+            //cout<<*(array+(8*(j+1))+i)<<endl;
             suma=suma/5;
             if(suma>=6){
                 cont++;
@@ -48,3 +48,4 @@ int calcula(int *array){
 
 }
 
+*/
