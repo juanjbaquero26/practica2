@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 
 using namespace std;
@@ -10,7 +10,7 @@ int main()
     int array1[4]={0,0,8,4};
     int array2[4]={5,2,6,7};
     intersec(array1,array2);
-      cout<<"el rectangulo de interseccion es : [";
+      cout<<"el rectangulo de interseccion c es : [";
     for(int i=0;i<4;i++){
           cout<<c[i];
     }
@@ -78,4 +78,4 @@ void intersec(int array1[],int array2[]){
 
 
 }
-
+*/
