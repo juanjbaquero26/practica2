@@ -203,6 +203,7 @@ Makefile: ../practica2/practica2.pro E:/qt2/6.1.3/mingw81_64/mkspecs/win32-g++/q
 		E:/qt2/6.1.3/mingw81_64/mkspecs/features/qt_config.prf \
 		E:/qt2/6.1.3/mingw81_64/mkspecs/win32-g++/qmake.conf \
 		E:/qt2/6.1.3/mingw81_64/mkspecs/features/spec_post.prf \
+		.qmake.stash \
 		E:/qt2/6.1.3/mingw81_64/mkspecs/features/exclusive_builds.prf \
 		E:/qt2/6.1.3/mingw81_64/mkspecs/features/toolchain.prf \
 		E:/qt2/6.1.3/mingw81_64/mkspecs/features/default_pre.prf \
@@ -222,7 +223,6 @@ Makefile: ../practica2/practica2.pro E:/qt2/6.1.3/mingw81_64/mkspecs/win32-g++/q
 		E:/qt2/6.1.3/mingw81_64/mkspecs/features/yacc.prf \
 		E:/qt2/6.1.3/mingw81_64/mkspecs/features/lex.prf \
 		../practica2/practica2.pro \
-		.qmake.stash \
 		E:/qt2/6.1.3/mingw81_64/mkspecs/features/build_pass.prf
 	$(QMAKE) -o Makefile ..\practica2\practica2.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 E:/qt2/6.1.3/mingw81_64/mkspecs/features/spec_pre.prf:
@@ -358,6 +358,7 @@ E:/qt2/6.1.3/mingw81_64/mkspecs/features/qt_functions.prf:
 E:/qt2/6.1.3/mingw81_64/mkspecs/features/qt_config.prf:
 E:/qt2/6.1.3/mingw81_64/mkspecs/win32-g++/qmake.conf:
 E:/qt2/6.1.3/mingw81_64/mkspecs/features/spec_post.prf:
+.qmake.stash:
 E:/qt2/6.1.3/mingw81_64/mkspecs/features/exclusive_builds.prf:
 E:/qt2/6.1.3/mingw81_64/mkspecs/features/toolchain.prf:
 E:/qt2/6.1.3/mingw81_64/mkspecs/features/default_pre.prf:
@@ -377,7 +378,6 @@ E:/qt2/6.1.3/mingw81_64/mkspecs/features/exceptions.prf:
 E:/qt2/6.1.3/mingw81_64/mkspecs/features/yacc.prf:
 E:/qt2/6.1.3/mingw81_64/mkspecs/features/lex.prf:
 ../practica2/practica2.pro:
-.qmake.stash:
 E:/qt2/6.1.3/mingw81_64/mkspecs/features/build_pass.prf:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\practica2\practica2.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
