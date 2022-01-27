@@ -1,4 +1,4 @@
-
+/*
 #include <iostream>
 
 using namespace std;
@@ -105,7 +105,7 @@ int main()
          }
          sumaTotal=sumaTotal+suma;
          cout<<"la suma cogiendo de a "<<n<<" particiones es: "<<sumaTotal<<endl;
-         cout<<"/n original :"<<cadena<<endl;
+         cout<<" original :"<<cadena<<endl;
     }
 
 
@@ -114,3 +114,4 @@ int main()
     return 0;
 }
 
+*/
