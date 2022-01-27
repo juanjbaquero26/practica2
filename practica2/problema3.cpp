@@ -1,3 +1,4 @@
+/*
 #include <iostream>}
 #include <math.h>
 
@@ -61,3 +62,4 @@ int convertir(char cadena[],int tamano){
     return suma;
 
 }
+*/

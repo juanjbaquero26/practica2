@@ -5,4 +5,5 @@ CONFIG -= qt
 
 SOURCES += \
     problema3.cpp \
-    problema7.cpp
+    problema7.cpp \
+    prueba.cpp
