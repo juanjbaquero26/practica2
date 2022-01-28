@@ -8,6 +8,7 @@ SOURCES += \
     problema1.cpp \
     problema11.cpp \
     problema13.cpp \
+    problema13_copy.cpp \
     problema15.cpp \
     problema3.cpp \
     problema5.cpp \

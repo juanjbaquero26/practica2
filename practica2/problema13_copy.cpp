@@ -1,4 +1,4 @@
-/*
+
 #include <iostream>
 
 using namespace std;
@@ -80,4 +80,4 @@ void intersec(int array1[],int array2[]){
 
 
 }
-*/
+
